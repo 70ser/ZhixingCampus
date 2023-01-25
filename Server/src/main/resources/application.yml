@@ -1,0 +1,17 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://47.115.226.135:3306/zhixing?serverTimezone=GMT%2b8
+    username: zhixingu
+    password: Zx123456789.
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+  servlet:
+    multipart:
+      max-file-size: 50MB
+      max-request-size: 50MB
+    tomcat:
+      max-swallow-size: 100MB
+server:
+  port: 9090
