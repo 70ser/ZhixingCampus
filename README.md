@@ -11,6 +11,7 @@
 运行程序
 
 nmd wsm wsm
+wsm wsm dev
 
 程序将执行在9090端口
 
