@@ -10,7 +10,7 @@
 
 运行程序
 
-nmd wsm
+nmd wsm wsm
 
 程序将执行在9090端口
 
